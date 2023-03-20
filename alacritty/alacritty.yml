@@ -1,0 +1,68 @@
+## Terminal window settings
+window:
+  dimensions:
+    columns: 100
+    lines: 30
+
+  padding:
+    x: 0
+    y: 0
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+  ## scrolling
+  history: 10000
+  multiplier: 3
+
+  ## Background opacity
+  opacity: 1.0
+
+## Cursor
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+  unfocused_hollow: false
+
+## Live config reload
+live_config_reload: true
+
+# Colors (One Dark)
+colors:
+  # Default colors
+  primary:
+    background: "0x0A0E14"
+    foreground: "0xabb2bf"
+
+  # Normal colors
+  normal:
+    black: "0x1e2127"
+    red: "0xe06c75"
+    green: "0x98c379"
+    yellow: "0xd19a66"
+    blue: "0x61afef"
+    magenta: "0xc678dd"
+    cyan: "0x56b6c2"
+    white: "0xabb2bf"
+
+  # Bright colors
+  bright:
+    black: "0x5c6370"
+    red: "0xe06c75"
+    green: "0x98c379"
+    yellow: "0xd19a66"
+    blue: "0x61afef"
+    magenta: "0xc678dd"
+    cyan: "0x56b6c2"
+    white: "0xffffff"
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Medium
+  size: 10
+
+shell: /usr/bin/fish
