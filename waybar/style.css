@@ -29,8 +29,11 @@ tooltip {
 }
 
 #mode {
+  margin: 2px 0;
+  padding: 0 10px;
   margin-left: 15px;
-  color: red;
+  background: #1f2037;
+  border-radius: 5px;
 }
 
 #workspaces {
