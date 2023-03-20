@@ -45,6 +45,9 @@ client.placeholder           #1E222A       #1E222A         #FFFFFF      #98C379 
     # Mouse button for dragging.
     floating_modifier $mod normal
 
+    # Screenshot
+    bindsym Print exec grim -g "$(slurp)" - | wl-copy
+
     # Reload the configuration file
     bindsym $mod+Shift+c reload
 
