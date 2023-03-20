@@ -1,0 +1,93 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#window {
+  background: #1f2037;
+  border-radius: 5px;
+  margin: 2px 0;
+  padding: 0 15px;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: white;
+}
+
+tooltip {
+  background: #1e1e2e;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
+}
+
+#mode {
+  margin-left: 15px;
+  color: red;
+}
+
+#workspaces {
+  margin-left: 15px;
+}
+
+#workspaces button {
+  color: #c0caf5;
+  padding: 0 4px;
+}
+
+#workspaces button.active {
+  color: #a6adc8;
+}
+
+#workspaces button.focused {
+  color: cyan;
+}
+
+#workspaces button.urgent {
+  color: white;
+}
+
+#workspaces button.persistent {
+  color: #414868;
+}
+
+#workspaces button:hover {
+  color: #c0caf5;
+  background: #1f2037;
+  border: none;
+}
+
+#clock {
+  /* font-family: "Roboto"; */
+  background: #1f2037;
+  margin: 2px 2px;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+#workspaces {
+  /* font-family: "Roboto"; */
+  background: #1f2037;
+  padding: 0px 10px;
+  border-radius: 5px;
+  margin: 2px 0;
+  margin-left: 10px;
+}
+
+#pulseaudio,
+#disk,
+#memory,
+#cpu {
+  background: #1f2037;
+  margin: 2px 0;
+  margin-right: 2px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
