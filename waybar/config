@@ -54,6 +54,6 @@
     "format": " {usage}%",
   },
   "memory": {
-    "format": "󰍛 {used}/{total}"
+    "format": "󰍛 {used}/{total}Gb"
   },
 }

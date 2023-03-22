@@ -94,3 +94,19 @@ tooltip {
   padding: 0 10px;
   border-radius: 5px;
 }
+
+#pulseaudio {
+  color: #52cef5;
+}
+
+#disk {
+  color: #d8ec45;
+}
+
+#cpu {
+  color: #fca800;
+}
+
+#memory {
+  color: #08fc00;
+}
