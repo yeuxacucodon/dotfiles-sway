@@ -14,7 +14,7 @@
     <!-- Graphical environment -->
     <h3>Graphical environment</h3>
     <ul>
-        <li>Windows manager: <a href="https://i3wm.org/">i3wm</a></li>
+        <li>Windows manager: <a href="https://github.com/swaywm/sway">sway</a></li>
         <li>Compositor: <a href="https://github.com/yshui/picom">Picom</a></li>
         <li>Status bar: <a href="https://github.com/polybar/polybar">Polybar</a></li>
         <li>Notification daemon: <a href="https://github.com/dunst-project/dunst">Dunst</a></li>
