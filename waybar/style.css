@@ -11,8 +11,8 @@
   border-radius: 5px;
   margin: 2px 0;
   padding: 0 15px;
-  font-family: "Roboto";
-  font-size: 14px;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
 }
 
 window#waybar {
@@ -62,7 +62,6 @@ tooltip {
 }
 
 #workspaces button:hover {
-  color: #c0caf5;
   background: #1f2037;
   border: none;
 }

@@ -5,7 +5,7 @@ set $mod Mod4
 font pango:Roboto 9
 
 # Background
-output * bg ~/.config/sway/bg2.png fill
+output * bg ~/.config/sway/bg.jpg fill
 
 # Home row direction keys, like vim
 set $left h
