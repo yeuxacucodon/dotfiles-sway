@@ -22,6 +22,7 @@ title_align center
 default_border pixel 2
 default_floating_border pixel 2
 for_window [class=".*"] border pixel 2
+for_window [app_id="termfloat"] floating enable
 focus_follows_mouse no
 
 # Class                      border        background      text         indicator      child_border
@@ -35,6 +36,7 @@ client.placeholder           #1E222A       #1E222A         #FFFFFF      #98C379 
 
     # Start a terminal
     bindsym $mod+Return exec alacritty
+    bindsym $mod+Shift+Return exec alacritty --class="termfloat"
 
     # Start Wofi
     bindsym $mod+d exec rofi -show drun
@@ -44,6 +46,9 @@ client.placeholder           #1E222A       #1E222A         #FFFFFF      #98C379 
 
     # Mouse button for dragging.
     floating_modifier $mod normal
+
+    # Power menu
+    bindsym $mod+Shift+e exec ~/.config/rofi/powermenu.sh
 
     # Screenshot
     bindsym Print exec grim -g "$(slurp)" - | wl-copy
@@ -141,4 +146,5 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Auto start
-exec_always ~/.config/waybar/launch.sh
+exec waybar &
+include /etc/sway/config.d/*
