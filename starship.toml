@@ -1,5 +1,3 @@
-scan_timeout = 10
-
 [aws]
 symbol = "  "
 
@@ -27,11 +25,7 @@ symbol = " "
 [elm]
 symbol = " "
 
-[fossil_branch]
-symbol = " "
-
 [git_branch]
-style = "bold red"
 symbol = " "
 
 [golang]
@@ -73,11 +67,46 @@ symbol = " "
 [nodejs]
 symbol = " "
 
+[os.symbols]
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "﯑ "
+Gentoo = " "
+HardenedBSD = "ﲊ "
+Illumos = " "
+Linux = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = " "
+openSUSE = " "
+OracleLinux = " "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+Redox = " "
+Solus = "ﴱ "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Windows = " "
+
 [package]
 symbol = " "
-
-[pijul_channel]
-symbol = "🪺 "
 
 [python]
 symbol = " "
@@ -98,5 +127,5 @@ symbol = " "
 symbol = "🅢 "
 
 [character]
-success_symbol = '[➜](bold green)'
-error_symbol = '[ ➜](bold red)'
+success_symbol = '[ ➜](bold purple)'
+error_symbol = "[ ➜](bold red)"
