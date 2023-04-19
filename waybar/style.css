@@ -11,7 +11,6 @@
   border-radius: 5px;
   margin: 2px 0;
   padding: 0 15px;
-  font-family: "JetBrainsMono Nerd Font";
   font-size: 13px;
 }
 
@@ -67,7 +66,6 @@ tooltip {
 }
 
 #clock {
-  /* font-family: "Roboto"; */
   background: #1f2037;
   margin: 2px 2px;
   padding: 0 15px;
@@ -75,7 +73,6 @@ tooltip {
 }
 
 #workspaces {
-  /* font-family: "Roboto"; */
   background: #1f2037;
   padding: 0px 10px;
   border-radius: 5px;
@@ -86,6 +83,7 @@ tooltip {
 #pulseaudio,
 #disk,
 #memory,
+#tray,
 #cpu {
   background: #1f2037;
   margin: 2px 0;

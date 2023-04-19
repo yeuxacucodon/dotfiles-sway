@@ -19,6 +19,7 @@
     "disk",
     "cpu",
     "memory",
+    "tray",
   ],
 
   "clock": {
@@ -55,5 +56,9 @@
   },
   "memory": {
     "format": "󰍛 {used}/{total}"
+  },
+  "tray": {
+    "icon-size": 10,
+    "spacing": 5,
   },
 }
