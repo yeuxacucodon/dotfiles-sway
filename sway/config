@@ -146,5 +146,5 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Auto start
-exec waybar &
 include /etc/sway/config.d/*
+exec_always ~/.config/waybar/launch.sh
