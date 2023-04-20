@@ -1,3 +1,5 @@
+# ⚠️ **Moved to [this repo](https://github.com/yeuxacucodon/dotfiles)**
+
 <div align="center">
     <h1>Dot files</h1>
     <p>My Arch Linux set up for swaywm</p>
